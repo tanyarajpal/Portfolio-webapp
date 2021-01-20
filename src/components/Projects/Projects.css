@@ -1,0 +1,76 @@
+.project {
+    height:100vh;
+    /*background-color:#282828;
+    color: ivory;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    text-align: center;
+    overflow-x: scroll;
+    
+    color: #282828;
+    overflow-x: hidden;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.right {
+    position: absolute;
+    color: #282828;
+   top:50%;
+   font-size: 3rem;
+   right: 32px;
+   z-index: 10;
+   cursor: pointer;
+   user-select: none;
+}
+
+.left {
+    position: absolute;
+    color: #282828;
+    top:50%;
+    font-size: 3rem;
+    left: 32px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.image {
+   width: 500px;
+    height: 300px;
+    margin:20px ;
+    box-shadow: 0px 20px 20px 0px ;
+    border-radius: 20px;
+   
+}
+
+.image:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.holder {
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.05);
+}
