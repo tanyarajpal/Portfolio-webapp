@@ -9,10 +9,10 @@
         background-repeat: no-repeat;
         color: white;*/
         display: flex;
-        justify-content: center;
+      /*  justify-content: center;
         text-align: center;
         align-items: center;
-
+      */
       /*  background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
        */
 }
@@ -22,7 +22,28 @@ h1 {
     bottom: 500px;
     color: black;*/
 }
-
+.homeimage{
+  
+  height: 100%;
+  background-color: hotpink;
+ transform: rotate(90deg);
+ 
+}
 .para{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: red;
+  height: 100vh;
+  width:50vw;
   transition: opacity 1s ease-in;
+}
+
+@media screen and(max-width:'790px')
+{
+  home{
+    display: flex;
+  flex-direction:column ;
+  }
 }

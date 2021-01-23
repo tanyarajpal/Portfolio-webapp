@@ -16,7 +16,7 @@ const Contact = () =>{
            }}
            >
             <a href="/"><FaTwitter id="icon" style={{color:'blue',margin:'10px'}}/></a>
-            <a href="https:/"> <FaInstagram id="icon" style={{fill:'pink',margin:'10px'}}/></a>
+            <a href="https:/"> <FaInstagram id="icon" style={{margin:'10px',color:'pink'}}/></a>
              <a href="https://"><FaLinkedin id="icon" style={{fill:'blue',margin:'10px'}}/></a>
             <a href="/"> <FaEnvelope id="icon" style={{fill:'brown',margin:'10px'}}/></a>
              </IconContext.Provider >

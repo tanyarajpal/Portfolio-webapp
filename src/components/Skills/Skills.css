@@ -45,6 +45,7 @@
    padding-left: 50px;
    
     display: flex;
+   
     
 }
 /*.hr1{
@@ -77,12 +78,15 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow:0px 5px 10px rgba(154,160,185,0.05),
+    0px 15px 50px rgba(166,173,201,0.2);
 }
 
 .codechef{
     width: 25px;
     height: 25px;
     background-image: url(../../Image/codechef.png);
+  
 }
 
 ul{
@@ -117,7 +121,7 @@ li{
      background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
 
     padding: 5px;
-    
+   
    animation: all 4s 1 ;
 }
 .css{
