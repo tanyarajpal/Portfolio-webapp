@@ -1,0 +1,150 @@
+.Navbar{
+    z-index: 1000px;
+    height: 70px;
+    width: 100%;
+   position: fixed;
+ 
+   z-index: 1031;
+   display: flex;
+background-color: white;
+ box-shadow:0px 5px 10px rgba(154,160,185,0.05),
+            0px 15px 50px rgba(166,173,201,0.2);
+ 
+ 
+}
+.name{
+   
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    font-size: 20px;
+    z-index:1000px;
+    cursor: pointer;
+}
+.menu{
+    position:absolute;
+    right: 50px;
+    width: 40%;
+    height:70px;
+    display: flex;
+    list-style-type:none;
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+#link{
+  
+    margin: 15px;
+}
+#link:hover{
+    text-decoration:orange underline ;
+   font-size: 18px;
+}
+#link:active{
+    color: orange;
+}
+.menubutton{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bt{
+    position: absolute;
+    right: 10px;
+    top:10px;
+   width:50px;
+   height: 50px;
+    
+ /*  background-image: url("../../Image/ham.webp");
+   background-repeat: no-repeat;
+   background-size: 100%;
+  */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+    z-index: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 ,.line2 ,.line3{
+    width: 40px;
+    height:3px;
+    background-color: black;
+    margin: 10px;
+}
+.activemenu{
+    width:0px;
+    height: 70px;
+   
+    display: none;
+}
+@media screen and (max-width:786px)
+{
+    .menu{
+        display: none;
+        
+    }
+  
+      .activemenu{
+         /* transition: ease-in-out 2s;*/
+
+        position:absolute;
+        right: 0px;
+        width: 50%;
+        box-shadow:0px 5px 10px rgba(154,160,185,0.05),
+        0px 15px 50px rgba(166,173,201,0.2);
+        display: flex;
+        list-style-type:none;
+       justify-content: space-around;
+       text-align: center;
+       align-items: center;
+        cursor: pointer;
+        height:100vh;       
+        background-color: white;
+        
+       flex-direction: column;
+       clip-path: circle(0px at 100% -20%);
+       transition: all 1s ease-out;
+      
+    }
+    .activemenu.open{
+        clip-path: circle(1000px at 100% -10%);
+       
+    }
+    .name{
+        display: block;
+    }
+   .bt{
+    
+       display: block;
+   }
+   .bt.open{
+       /*z-index:1000px;
+        background-image: url("../../Image/cross.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        */
+        display: none;
+   }
+   .line1.active{
+       position: relative;
+    top:13px;
+       transform: rotate(45deg);
+   }
+   .line2.active{
+       
+       display: none;
+   }
+   .line3.active{
+       transform: rotate(-45deg);
+   }
+   
+}
+

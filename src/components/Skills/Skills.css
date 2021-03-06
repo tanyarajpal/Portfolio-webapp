@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.s{
+  display:flex;
+  flex-direction: column; 
+  align-items: center;
+     text-align: center;
+     justify-content: center;
+  
+ 
+  
+}
+
+.skill{
+
+    width:100%;
+    height:100vh;
+    display:flex;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.skill1{
+   
+   
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    */
+    font-size: 50px;
+    color:tomato;
+}
+
+.skill2{
+ display: flex;
+ flex-direction: row;
+}
+
+.bar{
+  width: 70%;
+  
+   padding-left: 50px;
+   
+    display: flex;
+   
+    
+}
+/*.hr1{
+    position: relative;
+    bottom: 90px;
+    height: 350px;
+   
+}
+*/.hr2{
+   
+    
+ 
+    height: 400px;
+}
+hr{
+    border: 1px solid tomato;
+}
+.hr1{
+    transform: rotate(90deg);
+    position: relative;
+    top: 160px;
+    left: 155px;
+  
+  
+}
+
+.links{
+ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 5px 10px rgba(154,160,185,0.05),
+    0px 15px 50px rgba(166,173,201,0.2);
+}
+
+.codechef{
+    width: 25px;
+    height: 25px;
+    background-image: url(../../Image/codechef.png);
+  
+}
+
+ul{
+  
+    list-style-type: none;
+    display: flex;
+  flex-direction: column;
+
+
+ /*  justify-content: center;
+   align-items: center background-color: yellow;;*/
+}
+li{
+   
+    display: flex;
+ 
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-bottom: 10px;
+    width: 50vw;
+   
+   border: 1px solid tomato;
+   border-radius: 7px;
+}
+
+
+.html{
+    
+   width: 90%;
+     color:white;
+     border-radius: 5px;
+     background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+    padding: 5px;
+   
+   animation: all 4s 1 ;
+}
+.css{
+ 
+   width: 90%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+.js{
+   
+   width: 80%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+.boot{
+   
+   width: 80%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+.fb{
+  
+   width: 60%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+.react{
+    
+   width: 80%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+.cp{
+  
+   width: 70%;
+     color:white;
+     border-radius: 5px;
+             background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.8));
+
+     
+     padding: 5px;
+    
+   animation: all 4s 1 ;
+}
+@keyframes all{
+    from{
+          width: 0%; 
+         }
+    to{
+      width: ;
+    }
+}
+
+
+
+@media screen and (max-width:955px){
+    .skill1{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+      width: 250px;
+    }
+}
+
+@media screen and (max-width:){
+
+}
